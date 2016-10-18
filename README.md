@@ -5,5 +5,7 @@ Just dump a whole heap of files into the `/files/` folder and run `npm run sort-
 
 There's a bug which requires you to run `npm run sort-files` twice...I created this over a year ago & I'm simply just uploading the code to `github`.
 
+I've uploaded the node-modules folder just in case as the package versions are really old (I'm not sure if they still exist or not either) and it's only 214kb in size.
+
 # Other
 There is also a script `npm run sort-txtFile` which reads the txtfile and spits out two arrays. 1 with the numbers & 1 with the words. Idk why this is in here, but it is :P So I'll just leave it.
