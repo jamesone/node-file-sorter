@@ -1,6 +1,4 @@
 var fs = require('fs');
-
-
 var numbersFileContents = undefined
 var numberArray
 var alphabeticalArray = new Array()
