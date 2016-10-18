@@ -1,0 +1,13 @@
+{
+  "name": "FileSorter",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "sort-files": "node readFolderForFileTypes.js",
+    "sort-txtFile": "node readFile.js"
+  },
+  "dependencies": {
+    "mime": "1.3.4",
+    "mkdirp": "0.5.1"
+  }
+}
