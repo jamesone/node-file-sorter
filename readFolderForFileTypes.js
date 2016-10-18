@@ -21,7 +21,6 @@ var dive = function(dir, action) {
         if (err) {
             console.log(err, " ERROR");
             throw err;
-            return;
         }
 
         // Loop through file in list
@@ -67,7 +66,6 @@ function sortFilesIntoFolders(file, dir) {
                 if (err) {
                     console.log("+______________",err);
                     throw err;
-                    return;
                 }
                 // Create a write stream 
                 destFile = fs.createWriteStream(fileVariables.writeFilesTo + folderName + '/' + file);

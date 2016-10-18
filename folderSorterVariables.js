@@ -1,4 +1,3 @@
-
 var mkdir = require('mkdirp');
 
 module.exports = {
